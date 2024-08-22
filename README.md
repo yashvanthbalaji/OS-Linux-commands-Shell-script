@@ -36,14 +36,13 @@ anil aggarwal
 barun sengupta
 c.k. shukla
 lalit chowdury
-s.n. dasgupta
+s.n. dasgupta	
 ^d
 ```
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+[cmpout](./img/Screenshot%20from%202024-08-22%2016-27-19.png)
 
 cat < file2
 ## OUTPUT
