@@ -57,10 +57,12 @@ cmp file1 file2
 comm file1 file2
  ## OUTPUT
 
+![cmpout](./img/comm.png)
  
 diff file1 file2
 ## OUTPUT
 
+![cmpout](./img/diff.png)
 
 #Filters
 
