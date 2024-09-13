@@ -353,12 +353,15 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/f2d0cf1a-0f17-4376-94b2-0db87c48745c)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/7d289673-1d0d-44e8-8d87-b1a09e10638d)
+
 
 cat < urllist.txt
 ```
@@ -376,16 +379,19 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/01b00608-63c7-4ff3-b864-804c48fdf0a0)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/92dc6c07-fe10-41e9-aca2-520b38ac20e8)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ea459941-43fc-4277-889c-54a9b1eeba7f)
 
 
 mkdir backupdir
@@ -395,17 +401,21 @@ mv backup.tar backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/bb7704ef-cb25-45ff-9806-4bb993d58b66)
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9b073dd1-8166-4272-a57c-ad5f078c7774)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/d00a11f1-4b69-4eb0-b737-d425639510e9)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5328139a-3ac8-4a9e-ac6e-32cee379e485)
 
  
 # Shell Script
